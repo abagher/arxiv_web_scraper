@@ -1,0 +1,57 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	padding: 32px;
+}
+
+.articleSummary {
+	border: 1px solid #e2e2e2;
+	min-width: 400px;
+	max-width: 650px;
+	min-height: 100px;
+	margin: 30px;
+	padding: 16px;
+	display: grid;
+}
+
+.articleDetails {
+	display: grid;
+	grid-row-gap: 12px;
+	font-size: 16px;
+	text-align: left;
+}
+
+.title {
+	color: rgb(25, 110, 207);
+	font-size: 20px;
+}
+
+.name {
+	margin-right: 5px;
+}
+
+.pageSelect {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 24px;
+	text-align: center;
+}
+
+.pageButton {
+	margin: 10px 5px;
+	background-color: #e2e2e2;
+	border-radius: 7px;
+	box-shadow: none;
+	border: 1px solid #e2e2e2;
+	padding: 5px 10px;
+	min-width: 38px;
+	cursor: pointer;
+}
+
+.active {
+	background-color: #888888;
+}
+
+.authorList {
+	margin-bottom: 24px;
+}
